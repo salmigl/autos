@@ -1,0 +1,62 @@
+@media (max-width: 375px){
+    .cards{
+        flex-direction: column;
+    }
+}
+
+h2{
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+p{
+    font-family: 'Lexend Deca', sans-serif;
+   
+}
+h3{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    color: white;
+    width: 70%;
+    height: 60vh;
+
+}
+
+.cards text{
+    border: 20px;
+}
+
+
+
+.card1 {
+    background-color: hsl(31, 77%, 52%);
+    padding: 20px;
+}
+
+.card2 {
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px;
+
+}
+
+.card3 {
+    background-color: hsl(179, 100%, 13%);
+    padding: 20px;
+}
+
+.boton {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 200px;
+    
+}
+
